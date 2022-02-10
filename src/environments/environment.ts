@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiURL: 'https://medicalstoreapi.azurewebsites.net/api'
+  apiURL: 'https://medicalstoremanagementsystem.azurewebsites.net/api'
 };
 
 /*
