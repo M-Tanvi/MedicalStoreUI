@@ -1,6 +1,7 @@
 <h2>Customers</h2>
 
-<button class="mb" mat-flat-button color="primary" routerLink="/customers/create">Create new</button><br/>
+<button class="mb" mat-flat-button color="primary" routerLink="/customers/create">Create new</button>
+<button class="mb" mat-flat-button color="primary" (click)="loadCustomers()">Refresh</button><br/>
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 table-index" style=" box-sizing: border-box;
     padding: 25px 25px;
     width: 100%;
