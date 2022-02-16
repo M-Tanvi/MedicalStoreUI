@@ -31,7 +31,7 @@ export class StockComponent implements OnInit {
   deleteStock(id: number){
     this.stockservice.delete(id)
     .subscribe(() => {
-      this.router.navigate(['/stock']);
+      this.loadStock();
     });
   }
 

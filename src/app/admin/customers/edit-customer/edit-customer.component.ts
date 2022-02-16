@@ -23,7 +23,7 @@ export class EditCustomerComponent implements OnInit {
   
     saveChanges(customerCreationDTO: customerCreationDTO){
       this.clientservice.editCustomer(this.model.clientId, customerCreationDTO ).subscribe(() => {
-        this.location.back(); 
+        this.router.navigate(['/customers']);
       });
     }
   

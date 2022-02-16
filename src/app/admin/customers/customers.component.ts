@@ -36,7 +36,6 @@ export class CustomersComponent implements OnInit {
     this.clientservice.delete(id)
     .subscribe(() => {
       this.loadCustomers();
-      this.router.navigate(['/customers']);
     });
   }
 
